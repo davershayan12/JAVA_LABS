@@ -5,6 +5,7 @@ public class LAB3 {
     public static void main(String[] args){
        Scanner input= new Scanner(System.in);
        //Task01
+       /*A.	Take values of length and breadth of a rectangle from user and check if it is square or not. */
        /*
        System.out.println("Enter length of the shape: ");
        int length=input.nextInt();
@@ -15,9 +16,16 @@ public class LAB3 {
        }else{
            System.out.println("It's rectangle.");
        }*/
-
-
-       //Task02
+      //Task02
+       /*B.	A school has following rules for grading system:
+        Below 25 F
+        25 to 45 E
+        45 to 50 D
+        50 to 60 C
+        60 to 80 B
+        Above 80 A
+        */
+       
        /*
        System.out.println("Enter marks: ");
        int marks=input.nextInt();
@@ -39,7 +47,10 @@ public class LAB3 {
            System.out.println("Grade: F");
        }*/
 
+
        //Task03
+       /*C.	A student will not be allowed to sit in exam if his/her attendance is less than 75%. Take following input from user, Number of classes held, Number of classes attended and print percentage of class attended. Is student is allowed to sit in exam or not.
+        */
        /*
        System.out.println("Enter number of class you attended: ");
        int ClassTaken=input.nextInt();
@@ -73,13 +84,31 @@ public class LAB3 {
        
 
        //Task05
+       /*E.	Write a program that generates a random number between 1 and 25, then converts that number to its corresponding character using ASCII values. */
+
        /*int randomNumber=(int)(Math.random()*25);
        System.out.println("Random Number: "+randomNumber);
        char ASCII=(char)randomNumber;
 
        System.out.println(randomNumber+" convert ASCII value to"+ASCII);
        */
+      //Task06
+      /*F.	Write a program that calculates the distance between two points (x1, y1) and (x2, y2) using the distance formula, which involves Math.sqrt. d=√((x_2-x_1)²+(y_2-y_1)²) */
+      
+      /* 
+      System.out.println("Enter x1:");
+      int x1=input.nextInt();
+      System.out.println("Enter x2:");
+      int x2=input.nextInt();
+      System.out.println("Enter y1:");
+      int y1=input.nextInt();
+      System.out.println("Enter y2:");
+      int y2=input.nextInt();
+      double distance=Math.pow(Math.pow(x2+x1,2)+Math.pow(y2+y1,2), 1/2);
+      System.out.println("The distance of the given point is "+distance);
+      */
 
+      
     }
     
 }
