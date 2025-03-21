@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class LAB3 {
@@ -72,8 +73,12 @@ public class LAB3 {
        
 
        //Task05
+       /*int randomNumber=(int)(Math.random()*25);
+       System.out.println("Random Number: "+randomNumber);
+       char ASCII=(char)randomNumber;
 
-
+       System.out.println(randomNumber+" convert ASCII value to"+ASCII);
+       */
 
     }
     
