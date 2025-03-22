@@ -7,9 +7,25 @@ public class LAB2 {
         Division, Exponentiation, and Multiplication
         */
         Scanner input= new Scanner(System.in);
+        System.out.println();
         int num1=input.nextInt();
         int num2=input.nextInt();
-        char operator=input.next().chars(0);
+        String operator=input.next();
+        if(operator == "+"){
+            double result=num1+num2;
+
+        }else if(operator == "x"){
+            double result=num1*num2;
+        }
+        else if(operator == "/"){
+            double result=num1/num2;
+        }
+        else if(operator == "-"){
+            double result=num1-num2;
+        }
+        else if(operator =="**"){
+            double result=Math.pow(num1,num2);
+        }
 
 
     }
