@@ -57,7 +57,7 @@ public class LAB3 {
        System.out.println("Enter Total number of class: ");
        int TotalClasses=input.nextInt();
 
-       float attandence=(Class/TotalClasses)*100;
+       float attandence=(ClassTaken/TotalClasses)*100;
        
        if(attandence<75){
            System.out.println("you can take the exam.");
