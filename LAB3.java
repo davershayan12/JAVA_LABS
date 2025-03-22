@@ -107,7 +107,16 @@ public class LAB3 {
       double distance=Math.pow(Math.pow(x2+x1,2)+Math.pow(y2+y1,2), 1/2);
       System.out.println("The distance of the given point is "+distance);
       */
-
+      //Task07
+      /*G.	Write a program that takes two numbers as input, base and exponent, and calculates the result of base raised to the power of exponent using Math.pow. */
+      
+      /*System.out.println("Enter base:");
+      int base=input.nextInt();
+      System.out.println("Enter exponet:");
+      int exponent=input.nextInt();
+      double result=Math.pow(base,exponent);
+      System.out.println("The " + base + " raised to the power of "+exponent+" is "+result);
+      */
       
     }
     
