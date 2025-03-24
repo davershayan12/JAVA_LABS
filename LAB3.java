@@ -51,18 +51,18 @@ public class LAB3 {
        //Task03
        /*C.	A student will not be allowed to sit in exam if his/her attendance is less than 75%. Take following input from user, Number of classes held, Number of classes attended and print percentage of class attended. Is student is allowed to sit in exam or not.
         */
-       /*
+       /* 
        System.out.println("Enter number of class you attended: ");
        int ClassTaken=input.nextInt();
        System.out.println("Enter Total number of class: ");
        int TotalClasses=input.nextInt();
 
-       float attandence=(ClassTaken/TotalClasses)*100;
+       double attandence=((double)ClassTaken/TotalClasses)*100;
        
-       if(attandence<75){
+       if(attandence>75){
            System.out.println("you can take the exam.");
        }else{
-           System.out.println("you can not take the exam");
+           System.out.println("you can not take the exam "+attandence);
        }*/
        //Task04      
        /*System.out.println("Enter a age number 1: ");
