@@ -117,6 +117,7 @@ public class LAB3 {
       double result=Math.pow(base,exponent);
       System.out.println("The " + base + " raised to the power of "+exponent+" is "+result);
       */
+
       
     }
     
