@@ -129,20 +129,53 @@ public class LAB4 {
 
         /*I.	Write a program to print odd number from 1 to 100 using all three loops */
         /*
-                int i = 0;
+        int i = 0;
         do {
-            for (int j = 0; j <= 100; j++) {
-                int x = 1;
-                while (x <= 100) {
-                    if (x % 2 != 0) {
-                        System.out.println(x);
-                    }
-                    x++;
-                }
-                break;
+            if (i % 2 != 0) {
+                System.out.println(i);
             }
             i++;
-        } while (i <= 0);
+        } while (i <= 100);
+         */
+        /*
+        J.	Write a program to print diamond pattern using nested while and for loop in java
+         */
+        /*
+                int rows = 5;
+        int i = 1;
+        while (i <= rows) {
+            int j = 5;
+            while (j > i) {
+                System.out.print(" ");
+                j--;
+            }
+            for (int x = 1; x <= i; x++) {
+                System.out.print("*");
+            }
+            for (int x = 1; x < i; x++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+            i++;
+        }
+
+        rows = 1;
+        i = 4;
+        while (i >= rows) {
+            int j = 5;
+            while (j > i) {
+                System.out.print(" ");
+                j--;
+            }
+            for (int x = 1; x <= i; x++) {
+                System.out.print("*");
+            }
+            for (int x = 1; x < i; x++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+            i--;
+        }
          */
 
     }    
