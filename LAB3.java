@@ -51,7 +51,7 @@ public class LAB3 {
        //Task03
        /*C.	A student will not be allowed to sit in exam if his/her attendance is less than 75%. Take following input from user, Number of classes held, Number of classes attended and print percentage of class attended. Is student is allowed to sit in exam or not.
         */
-       /* 
+       /*  
        System.out.println("Enter number of class you attended: ");
        int ClassTaken=input.nextInt();
        System.out.println("Enter Total number of class: ");
